@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap&subset=cyrillic-ext');
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-LightItalic.woff2') format('woff2'),
+		url('../fonts/Gilroy-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('../fonts/Gilroy-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+		url('../fonts/Gilroy-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+} 
+
+/*
+Жмем F1
+Пишем Google Fonts
+Выбираем import
+Пишем имя шрифта
+Убираем лишнее
+Добавляем кавычки и запись:
+&display=swap&subset=cyrillic-ext
+*/
+
+/* Стили обнуления */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-family: lora;
+	font-size: 30px;
+	line-height: 1;
+	color:black;
+}
+/*-------------------------------------*/
+
+.main {
+}
+.block {
+	background-color: wheat;
+}
+.block-1 {
+	padding: 20px;
+	text-align: center;
+}
+.title {
+	font-family: Roboto;
+	font-size: 60px;
+	line-height: 100%;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 20px;
+	text-shadow: 3px 3px 3px tomato;
+}
+.text-12,
+.text-13 {
+	color: rgb(14, 67, 165);
+	background-color: rgb(7, 187, 241);
+	display: inline-block;
+	max-width: 30%;
+	max-height: 300px;
+	overflow: auto;
+	padding: 30px;
+	margin: 0 0 50px 0;
+}
+.img-1 {
+	max-width: 30%;
+	margin-top: 35px;
+	background-color: rgb(7, 187, 241);
+	padding: 50px 0;
+}
+.subtitle {
+	font-family: Roboto;
+	font-size: 50px;
+	color: red;
+	text-align:right;
+	padding-right: 50px;
+}
+.block-2 {
+	background-color: yellow;
+	padding: 5%;
+	text-align: center;
+	margin: -20px 20px 10px 20px;
+}
+.cart-1 {
+	display: inline-block;
+	background-color:salmon;
+	max-width: 45%;
+}
+.img-2 {
+	max-width: 100%;
+}
+.text-14 {
+	margin: 0 10px;
+	text-align: right;
+}
+.cart-2 {
+	display: inline-block;
+	background-color: springgreen;
+	max-width: 45%;
+}
+.img-3 {
+	max-width: 100%;
+}
+.text-15 {
+	margin: 0 10px;
+	text-align: left;
+}
+.block-3{
+	text-align: center;
+}
+.text-16{
+	background-color: violet;
+	width: 500px;
+	height: 300px;
+	overflow: auto;
+	display:inline-block;
+}
+.text-17{
+	display: none;
+}
